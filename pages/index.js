@@ -6,7 +6,10 @@ export default function Home() {
     <>
       <Head>
         <title>파민 - 다양한 툴을 이용해보세요</title>
-
+        <meta
+          name="google-site-verification"
+          content="WJO596AEWLVZE0WvV8ogLQ0sm-iHwcbPosXfVJ6pmnI"
+        />
         <meta
           name="description"
           content="파민에서는 디데이 계산기, 랜덤 숫자 뽑기, 만나이 계산기 등 다양한 툴을 제공합니다. 이 도구들을 통해 여러분의 일상을 더욱 편리하게 만들어보세요."
