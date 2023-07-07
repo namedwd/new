@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen py-2 px-4 sm:px-6 lg:px-8">
         <h1 className="mt-6 text-4xl font-bold text-gray-900">
-          파민의 유용한 계산기 모음입니다
+          파민의 유용한 계산기 모음입니다!
         </h1>
         <p className="mt-3 text-lg text-gray-700 mx-2 sm:mx-0">
           먼저, 파민에 오신 것을 진심으로 환영합니다. 파민은 더 많은 가능성, 더
