@@ -69,6 +69,11 @@ function DDayCalculator() {
     return (
       <>
         <Head>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9338031027037605"
+            crossorigin="anonymous"
+          ></script>
           <title>디데이 계산기 - 특별한 날을 기다리며</title>
           <meta
             name="description"

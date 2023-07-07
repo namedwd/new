@@ -88,6 +88,11 @@ export default function DischargeDateCalculator() {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9338031027037605"
+          crossorigin="anonymous"
+        ></script>
         <title>전역일 계산기: 완벽한 가이드와 사용 방법</title>
         <meta
           name="description"

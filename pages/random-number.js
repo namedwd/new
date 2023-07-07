@@ -52,6 +52,11 @@ export default function RandomNumberGenerator() {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9338031027037605"
+          crossorigin="anonymous"
+        ></script>
         <title>랜덤 숫자 뽑기 | 파민</title>
         <meta
           name="description"
