@@ -11,6 +11,10 @@ export default function Home() {
           content="WJO596AEWLVZE0WvV8ogLQ0sm-iHwcbPosXfVJ6pmnI"
         />
         <meta
+          name="naver-site-verification"
+          content="e6fcf251e8d88d71abbaff74f161f785ba82f612"
+        />
+        <meta
           name="description"
           content="파민에서는 디데이 계산기, 랜덤 숫자 뽑기, 만나이 계산기 등 다양한 툴을 제공합니다. 이 도구들을 통해 여러분의 일상을 더욱 편리하게 만들어보세요."
         />
