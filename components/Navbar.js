@@ -62,6 +62,12 @@ const Navbar = () => {
           >
             전역일 계산기
           </Link>
+          <Link
+            href="/bmicalculator"
+            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          >
+            비만도 계산기
+          </Link>
         </div>
       </div>
     </nav>

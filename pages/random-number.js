@@ -78,7 +78,7 @@ export default function RandomNumberGenerator() {
       <div className="container mx-auto p-4 flex justify-center">
         <div className="w-full max-w-md">
           <h1 className="text-2xl text-center mb-4">
-            랜덤 숫자 뽑기: 프로그램 사용 방법
+            당신만의 랜덤 숫자를 만들어 보세요!
           </h1>
           <form
             onSubmit={handleSubmit}
