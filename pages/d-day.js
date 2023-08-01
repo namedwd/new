@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 const weekDays = ["일", "월", "화", "수", "목", "금", "토"];
 function getCurrentDate() {
@@ -149,28 +150,66 @@ function DDayCalculator() {
               </div>
             )}
           </form>
-          <h2 className="text-xl font-bold text-gray-700 mt-8">
-            디데이 계산기란?
-          </h2>
           <p className="mt-2 text-gray-700">
-            디데이 계산기는 특정 날짜를 기준으로 몇일이 지났는지 혹은 얼마나
-            남았는지를 계산해주는 도구입니다. 사용자는 특정 이벤트에 대한
-            카운트다운이 필요할 때나, 이미 지나간 날짜를 기준으로 경과된 일자를
-            알고 싶을 때 사용할 수 있습니다. 디데이는 Decision Day의 약자로,
-            중요한 날 혹은 특별한 날을 지칭하는 말입니다.
+            모든 날짜 계산에 필요한 원스톱 솔루션인 디데이 계산기에 오신 것을
+            환영합니다! 특별한 날을 표시하거나, 두 날짜 사이의 시간 간격을
+            측정하거나, 향후 이벤트를 미리 계획할 때, 날짜 계산기가 정확하고
+            간단하게 도와드립니다.
           </p>
           <h2 className="text-xl font-bold text-gray-700 mt-8">
-            디데이 계산기 사용 방법
+            디데이 계산기란 무엇인가요?
           </h2>
+          <div className="w-full md:w-1/2 lg:w-1/3">
+            <Image
+              src="/images/디데이 계산기.jpg"
+              alt="디데이 계산기 설명 이미지"
+              layout="responsive"
+              width={400} // 원본 이미지 너비
+              height={200} // 원본 이미지 높이
+            />
+          </div>
           <p className="mt-2 text-gray-700">
-            디데이 계산기를 사용하는 방법은 간단합니다. 먼저, 디데이를
-            계산하고자 하는 날짜를 입력해야 합니다. 입력은 연도, 월, 일 순으로
-            진행되며, 각 입력란에 해당하는 값을 입력해주면 됩니다. 입력란에 값이
-            모두 입력된 후 디데이 계산하기 버튼을 클릭하면 입력한 날짜에 따른
-            디데이 계산 결과가 화면에 표시됩니다. 과거의 날짜를 입력한 경우,
-            입력하신 날짜부터 xx일 지났습니다.라는 결과를 볼 수 있으며, 미래의
-            날짜를 입력한 경우 입력하신 날짜까지 xx일 남았습니다.라는 결과를
-            확인하실 수 있습니다.
+            디데이 계산기는 오늘 날짜와 지정한 미래 또는 과거 날짜 사이의 일수를
+            계산하는 무료 온라인 도구입니다. 위의 양식에 연도, 월, 일을 입력하면
+            남은 일수 또는 경과한 일수를 빠르게 확인할 수 있습니다.
+          </p>
+          <h2 class="text-xl font-bold text-gray-700 mt-8">
+            디데이 계산 도구를 사용하는 이유는 무엇인가요?
+          </h2>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">이벤트 계획</h3>
+          <p class="mt-2 text-gray-700">
+            결혼식, 생일 또는 기타 이벤트를 계획 중이신가요? 이 도구를 사용해
+            정확한 남은 일수를 확인하세요.
+          </p>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">비즈니스 니즈</h3>
+          <p class="mt-2 text-gray-700">
+            프로젝트 마감일, 납기일 또는 모든 비즈니스 요구사항에 대한 기간을
+            계산하세요.
+          </p>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">개인 목표</h3>
+          <p class="mt-2 text-gray-700">
+            기념일, 졸업, 은퇴와 같은 개인적 이정표까지 남은 날짜를 추적하세요.
+          </p>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">특징</h3>
+          <ul class="mt-2 text-gray-700">
+            <li>간편한 입력 및 빠른 결과</li>
+            <li>다양한 사용법</li>
+            <li>정확한 계산</li>
+            <li>무료 온라인 도구</li>
+          </ul>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">
+            디데이 계산기 사용 방법
+          </h3>
+          <p class="mt-2 text-gray-700">
+            연도, 월, 일을 입력합니다 -&gt; 계산하기 버튼을 클릭합니다 -&gt;
+            결과 보기.
+          </p>
+          <h3 class="text-lg font-bold text-gray-600 mt-4">디데이의 유래</h3>
+          <p class="mt-2 text-gray-700">
+            디데이는 원래 1944년 6월 6일, 제2차 세계 대전 동안 연합군이 나치
+            독일이 점령한 프랑스 노르망디 해안에 상륙한 날을 가리키는 용어로
+            사용되었습니다. 이후에는 계획된 중요한 이벤트가 발생할 날짜를
+            일반적으로 나타내는 단어로 널리 쓰이게 되었습니다.
           </p>
         </div>
       </>
