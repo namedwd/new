@@ -1,6 +1,7 @@
 // pages/random-number.js
 import { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function RandomNumberGenerator() {
   const [start, setStart] = useState("");
@@ -77,9 +78,7 @@ export default function RandomNumberGenerator() {
       </Head>
       <div className="container mx-auto p-4 flex justify-center">
         <div className="w-full max-w-md">
-          <h1 className="text-2xl text-center mb-4">
-            당신만의 랜덤 숫자를 만들어 보세요!
-          </h1>
+          <h1 className="text-2xl text-center mb-4">랜덤 숫자 뽑기 - 파민</h1>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col space-y-2 items-center mb-4"
@@ -119,42 +118,59 @@ export default function RandomNumberGenerator() {
             <p className="text-green-500 text-xl">{numbers.join(", ")}</p>
           )}
           <section className="mt-10">
-            <h2 className="text-xl mb-4">
-              랜덤 숫자 뽑기: 완벽한 가이드와 사용 방법
+            <p className="mb-2">
+              랜덤 숫자 뽑기는 모든 종류의 게임, 추첨, 시뮬레이션에서 중요한
+              역할을 합니다. 우리의 일상에서도 랜덤 숫자 뽑기는 다양한 용도로
+              활용됩니다. 본 글에서는 시작숫자, 끝숫자, 추출갯수를 입력하여 중복
+              없이 순서대로 추출갯수만큼 무작위 번호를 추출하는 방법을
+              소개하겠습니다.
+            </p>
+            <div className="w-full">
+              <Image
+                src="/images/랜덤 숫자 뽑기.jpg"
+                alt="랜덤 숫자 뽑기 설명 이미지"
+                layout="responsive"
+                width={400} // 원본 이미지 너비
+                height={200} // 원본 이미지 높이
+              />
+            </div>
+            <h2 className="text-lg mb-2">
+              1. 사용의 간편함: 랜덤 숫자 뽑기 도구
             </h2>
             <p className="mb-2">
-              랜덤 숫자는 수많은 분야에서 중요한 역할을 합니다. 이러한 숫자는
-              균일한 분포에서 동일한 확률로 선정되므로, 예측이 불가능합니다. 이
-              글에서는 랜덤 숫자의 중요성과 이를 어떻게 뽑아내는지에 대한 방법을
-              안내해드립니다.
+              시작숫자와 끝숫자를 지정하고, 원하는 추출갯수만큼 무작위 번호를
+              추출하는 이 도구는 누구나 쉽게 사용할 수 있습니다. 이 방법은 로또
+              번호 생성, 무작위 샘플링, 실험 디자인 등에 사용될 수 있습니다.
             </p>
-            <h2 className="text-lg mb-2">랜덤 숫자의 중요성</h2>
+            <h2 className="text-lg mb-2">
+              2. 중복 없이 추출: 효과적인 알고리즘
+            </h2>
             <p className="mb-2">
-              랜덤 숫자는 게임의 무작위 요소부터 통계적 샘플링, 컴퓨터
-              보안에서의 암호 생성에 이르기까지 다양한 분야에서 활용됩니다. 이는
-              각 숫자가 동일한 확률로 선정되므로, 예측이 불가능하기 때문입니다.
+              이 도구의 핵심은 중복 없이 숫자를 추출하는 것입니다. 랜덤 숫자
+              뽑기에서 중복은 원치 않는 결과를 초래할 수 있으므로, 중복 없이
+              추출하는 기능은 매우 중요합니다.
             </p>
-            <h2 className="text-lg mb-2">랜덤 숫자 추출 방법</h2>
+            <h2 className="text-lg mb-2">
+              3. 확장성과 유용성: 여러 분야에 적용
+            </h2>
             <p className="mb-2">
-              랜덤 숫자를 추출하는 방법에는 다양한 것들이 있습니다. 가장 간단한
-              방법으로는 주사위를 굴리는 것, 복권 추첨 등이 있습니다. 하지만
-              이러한 방법들은 대량의 랜덤 숫자를 신속하게 생성하기에는
-              제한적입니다. 그래서 대부분은 컴퓨터 기반의 알고리즘을 사용하여
-              랜덤 숫자를 생성합니다.
+              시작숫자부터 끝숫자까지 랜덤하게 숫자를 뽑는 이 기능은 다양한
+              분야에서 활용될 수 있습니다. 교육, 연구, 마케팅 등에서 이 도구를
+              효과적으로 사용할 수 있습니다.
             </p>
-            <h2 className="text-lg mb-2">랜덤 숫자의 활용</h2>
+            <h2 className="text-lg mb-2">4. 안정성과 신뢰성: 공정한 랜덤화</h2>
             <p className="mb-2">
-              랜덤 숫자는 다양한 분야에서 활용됩니다. 예를 들어, 복권 추첨이나
-              게임에서 랜덤 요소를 생성하거나, 통계 샘플링에서 데이터 세트를
-              선택하거나, 컴퓨터 보안에서 암호를 생성하는 등의 용도로
-              사용됩니다. 또한, 랜덤 숫자는 컴퓨터 시뮬레이션, 신경과학, 양자
-              물리학 등과 같은 복잡한 과학적 연구에서도 중요한 역할을 합니다.
+              이 도구는 공정한 랜덤화를 제공하며, 모든 숫자가 동일한 확률로 뽑힐
+              수 있도록 설계되었습니다. 이로 인해 랜덤 숫자 뽑기의 정확도와
+              신뢰성이 높아집니다.
             </p>
-            <h2 className="text-lg mb-2">마무리</h2>
+            <h2 className="text-lg mb-2">결론</h2>
             <p className="mb-2">
-              랜덤 숫자는 과학, 기술, 게임 등 다양한 분야에서 중요한 역할을
-              합니다. 랜덤 숫자의 의미와 어떻게 뽑아내는지에 대한 이해는 이러한
-              분야에서의 작업을 효과적으로 수행하는데 도움이 될 것입니다.
+              시작숫자부터 끝숫자까지 랜덤 숫자를 뽑는 이 도구는 다양한 분야에서
+              활용될 수 있습니다. 중복 없이 순서대로 추출갯수만큼 무작위 번호를
+              추출하는 기능은 이 도구를 독특하고 유용하게 만듭니다. 무엇을
+              기다리고 계신가요? 지금 바로 이 무작위 번호 추출 도구를 사용해
+              보세요!
             </p>
           </section>
         </div>

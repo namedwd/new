@@ -159,7 +159,7 @@ function DDayCalculator() {
           <h2 className="text-xl font-bold text-gray-700 mt-8">
             디데이 계산기란 무엇인가요?
           </h2>
-          <div className="w-full md:w-1/2 lg:w-1/3">
+          <div className="w-full">
             <Image
               src="/images/디데이 계산기.jpg"
               alt="디데이 계산기 설명 이미지"
