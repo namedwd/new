@@ -90,6 +90,7 @@ export default function RandomNumberGenerator() {
                 value={start}
                 onChange={(e) => setStart(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -97,6 +98,7 @@ export default function RandomNumberGenerator() {
                 value={end}
                 onChange={(e) => setEnd(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -104,6 +106,7 @@ export default function RandomNumberGenerator() {
                 value={count}
                 onChange={(e) => setCount(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
             </div>
             <button

@@ -116,6 +116,7 @@ function AgeCalculator() {
                   onChange={(e) => setBirthYear(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="4"
+                  inputMode="numeric"
                 />
                 <input
                   type="number"
@@ -125,6 +126,7 @@ function AgeCalculator() {
                   onChange={(e) => setBirthMonth(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="2"
+                  inputMode="numeric"
                 />
                 <input
                   type="number"
@@ -134,6 +136,7 @@ function AgeCalculator() {
                   onChange={(e) => setBirthDay(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="2"
+                  inputMode="numeric"
                 />
               </div>
             </div>
@@ -147,6 +150,7 @@ function AgeCalculator() {
                   onChange={(e) => setBaseYear(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="4"
+                  inputMode="numeric"
                 />
                 <input
                   type="number"
@@ -157,6 +161,7 @@ function AgeCalculator() {
                   onChange={(e) => setBaseMonth(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="2"
+                  inputMode="numeric"
                 />
                 <input
                   type="number"
@@ -167,6 +172,7 @@ function AgeCalculator() {
                   onChange={(e) => setBaseDay(e.target.value)}
                   className="w-full p-2 text-lg rounded shadow"
                   maxLength="2"
+                  inputMode="numeric"
                 />
               </div>
             </div>

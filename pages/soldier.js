@@ -127,6 +127,7 @@ export default function DischargeDateCalculator() {
                 value={year}
                 onChange={(e) => setYear(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -134,6 +135,7 @@ export default function DischargeDateCalculator() {
                 value={month}
                 onChange={(e) => setMonth(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -141,6 +143,7 @@ export default function DischargeDateCalculator() {
                 value={day}
                 onChange={(e) => setDay(e.target.value)}
                 className="flex-1 p-2 border rounded"
+                inputMode="numeric"
               />
             </div>
             <div className="w-full flex space-x-2">
