@@ -108,6 +108,7 @@ function DDayCalculator() {
                 onChange={(e) => setEventYear(e.target.value)}
                 className="flex-1 border rounded-md p-2"
                 maxLength={4}
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -117,6 +118,7 @@ function DDayCalculator() {
                 onChange={(e) => setEventMonth(e.target.value)}
                 className="flex-1 border rounded-md p-2"
                 maxLength={2}
+                inputMode="numeric"
               />
               <input
                 type="number"
@@ -126,6 +128,7 @@ function DDayCalculator() {
                 onChange={(e) => setEventDay(e.target.value)}
                 className="flex-1 border rounded-md p-2"
                 maxLength={2}
+                inputMode="numeric"
               />
             </div>
             <button
