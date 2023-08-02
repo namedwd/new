@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
+import Ad from "@/components/Ad";
 
 function AgeCalculator() {
   const [birthYear, setBirthYear] = useState("");
@@ -189,6 +190,7 @@ function AgeCalculator() {
               </h2>
             )}
           </form>
+          <Ad />
           <h2 className="text-2xl font-bold mb-4 mt-8">
             한국의 만 나이 통일법을 반영한 정확한 만 나이 계산
           </h2>

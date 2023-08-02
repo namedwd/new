@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Ad from "@/components/Ad";
 
 export default function RandomNumberGenerator() {
   const [start, setStart] = useState("");
@@ -120,6 +121,7 @@ export default function RandomNumberGenerator() {
           {numbers.length > 0 && (
             <p className="text-green-500 text-xl">{numbers.join(", ")}</p>
           )}
+          <Ad />
           <section className="mt-10">
             <p className="mb-2">
               랜덤 숫자 뽑기는 모든 종류의 게임, 추첨, 시뮬레이션에서 중요한

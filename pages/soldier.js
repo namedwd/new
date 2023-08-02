@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
-
+import Ad from "@/components/Ad";
 function calculateServiceInfo(startDate, serviceType) {
   // 복무 기간을 나타내는 객체
   const servicePeriod = {
@@ -189,6 +189,7 @@ export default function DischargeDateCalculator() {
               )}
             </div>
           )}
+          <Ad />
           <section className="mt-10">
             <h2 className="text-xl mb-4">
               전역일 예측하기: 완벽한 가이드와 사용 방법

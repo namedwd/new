@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
+import Ad from "@/components/Ad";
 
 function BmiCalculator() {
   const [height, setHeight] = useState("");
@@ -106,6 +107,7 @@ function BmiCalculator() {
             </>
           )}
         </form>
+        <Ad />
         <div className="mt-8 bg-white shadow px-4 py-5 sm:rounded-lg sm:p-6">
           <div className="md:grid md:grid-cols-2 md:gap-6">
             <div>
