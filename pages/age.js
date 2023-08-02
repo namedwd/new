@@ -194,7 +194,9 @@ function AgeCalculator() {
           <h2 className="text-2xl font-bold mb-4 mt-8">
             한국의 만 나이 통일법을 반영한 정확한 만 나이 계산
           </h2>
-          <Ad />
+          <div>
+            <Ad />
+          </div>
           <p className="mb-4">
             2023년 6월 28일부터 시행된 한국의 만 나이 통일법은 나이 계산 방식을
             변경하였습니다. 이에 따라 만 나이 계산기 웹사이트를 소개합니다. 해당
