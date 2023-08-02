@@ -153,6 +153,18 @@ function DDayCalculator() {
               </div>
             )}
           </form>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9338031027037605"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9338031027037605"
+     data-ad-slot="2794242859"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
           <p className="mt-2 text-gray-700">
             모든 날짜 계산에 필요한 원스톱 솔루션인 디데이 계산기에 오신 것을
             환영합니다! 특별한 날을 표시하거나, 두 날짜 사이의 시간 간격을
