@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Ad from "@/component/Ad";
+import Ad from "@/components/Ad";
 
 const weekDays = ["일", "월", "화", "수", "목", "금", "토"];
 function getCurrentDate() {
