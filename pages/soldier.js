@@ -189,8 +189,9 @@ export default function DischargeDateCalculator() {
               )}
             </div>
           )}
-          <Ad />
+
           <section className="mt-10">
+            <Ad />
             <h2 className="text-xl mb-4">
               전역일 예측하기: 완벽한 가이드와 사용 방법
             </h2>
