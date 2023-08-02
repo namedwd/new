@@ -107,8 +107,9 @@ function BmiCalculator() {
             </>
           )}
         </form>
-        <Ad />
+
         <div className="mt-8 bg-white shadow px-4 py-5 sm:rounded-lg sm:p-6">
+          <Ad />
           <div className="md:grid md:grid-cols-2 md:gap-6">
             <div>
               <h2 className="text-2xl font-bold mb-4">
