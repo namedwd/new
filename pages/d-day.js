@@ -95,7 +95,7 @@ function DDayCalculator() {
           />
           <meta property="og:type" content="website" />
         </Head>
-        <div className="container mx-auto p-4 flex justify-center">
+        <div className="mx-auto w-full max-w-md px-4 sm:px-6 lg:px-8">
           <h1 className="mb-4 text-xl font-bold text-gray-700">D-Day 계산기</h1>
           <p className="mb-4">
             오늘의 날짜:{" "}
